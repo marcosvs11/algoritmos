@@ -1,14 +1,21 @@
 programa {
-    funcao inicio()
-    {
-        cadeia NomeDoUsuario = "Marcos"
-        inteiro IdadeDoUsuario = 18
-        real AlturaDoUsuario = 1.73
-        logico MaiorDeIdade = verdadeiro ; IdadeDoUsuario >= 18
+    funcao inicio() {
+        cadeia Nome
+        escreva("Digite seu nome: ")
+        leia(Nome)
+        inteiro Idade
+        escreva("Olá, ", Nome, "!\nQual é a sua idade? ")
+        leia(Idade) 
+        se (Idade >= 18)
+        {
+            escreva("\nVocê é alfa ", Nome, "pode continuar!\n")
+        }
+        senao
+        {
+            escreva("\nVaza daqui beta, você é menor de idade!\nVolte quando tiver 18 anos!")
+        }
+        
 
-        escreva (" Nome do usuário: ", NomeDoUsuario, "\n")
-        escreva ("Idade do usuário: ", IdadeDoUsuario, "\n")
-        escreva ("Altura do usuário: ", AlturaDoUsuario , "\n")
-        escreva ("Ele é muito bonito?: ", MaiorDeIdade, "\n")
+       
     }
 }
