@@ -29,7 +29,7 @@ programa{
         }
         senao se (Resposta == "S" ou Resposta == "s")
         {
-            escreva("Agora que você fez uma escolhar, vamos recapitular: ")
+            escreva("Agora que você fez uma escolha, 1vamos recapitular: ")
             escreva("\nJá vimos sobre multiplicação e divisão, falta ainda subtração, adição e exponenciação.\n")
             Adicao = Total+Metade
             escreva("\n" + "Vamos lá, se pegarmos " + Total + " e somarmos com " + Metade + " o resultado será: " + Adicao)
@@ -43,8 +43,8 @@ programa{
             leia(TB)
             Expo = Mat.potencia(TA, TB)
             limpa()
-            escreva("\n" + "Agora podemos dizer que " + TA + " está sendo elevado a " + TB + " e o resultado é de: " + Expo + "\n")
-            escreva("\nE com isso, terminamos de ver os operadores aritmeticos, espero que tenha gostado!\nAté em breve, quando eu começar com Funções Aritméticas!")
+            escreva("\n" + "Agora podemos dizer que " + TA + " está sendo elevado por " + TB + " e o resultado é de: " + Expo + "\n")
+            escreva("\nE com isso, terminamos de ver os operadores aritmeticos, espero que tenha gostado!\nAté em breve, quando eu começar com Funções Aritméticas!\n")
         }
     }
 }
