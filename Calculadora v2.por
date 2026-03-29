@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 //Projeto de Calculadora com Menu de Operações.
+=======
+>>>>>>> 571ad86e4c38e1bb728f67d239eefef604da282c
 programa {
 
   inclua biblioteca Matematica --> Mat
 
   funcao inicio() {
+<<<<<<< HEAD
 
     inteiro opcao
     real n1, n2, resultado, pot, radic
@@ -11,6 +15,14 @@ programa {
     escreva("\n===CALCULADORA MÁGICA===\n")
 
 //Menu simples, mas achei totalmente necessário.
+=======
+    
+    inteiro opcao
+    real n1, n2, resultado, pot, radic
+
+    escreva("\n===CALCULADORA MÁGICA===\n")
+
+>>>>>>> 571ad86e4c38e1bb728f67d239eefef604da282c
     escreva("\n1 - Somar")
     escreva("\n2 - Subtrair")
     escreva("\n3 - Multiplicar")
@@ -21,7 +33,10 @@ programa {
     leia(opcao)
     limpa()
 
+<<<<<<< HEAD
 //Utilização de "se's" e "senão", quebrei a cabeça, mas consegui montar algo sólido.
+=======
+>>>>>>> 571ad86e4c38e1bb728f67d239eefef604da282c
     se (opcao == 1) {
     escreva("Digite o primeiro número: ")
     leia(n1)
@@ -59,7 +74,10 @@ programa {
       escreva(n1, " / ", n2, " = ", resultado)
     }
     }
+<<<<<<< HEAD
     //Coloquei o nome para o usuário identificar melhor os números.
+=======
+>>>>>>> 571ad86e4c38e1bb728f67d239eefef604da282c
     senao se (opcao == 5) {
     escreva("Digite o número da base: ")
     leia(n1)
@@ -68,8 +86,11 @@ programa {
       resultado = Mat.potencia(n1,n2)
       escreva(n1, " elevado a ", n2, " = ", resultado)
     }
+<<<<<<< HEAD
 
     //Para evitar erros, decidi deixar o índice padrão.
+=======
+>>>>>>> 571ad86e4c38e1bb728f67d239eefef604da282c
     senao se (opcao == 6) {
     escreva("OBSERVAÇÃO -> O valor do índice é por padrão igual 2!\n")
     escreva("\nDigite o número do radicando: ")
@@ -81,7 +102,11 @@ programa {
       escreva("Opção Inválida!\n")
     }
     }
+<<<<<<< HEAD
   }
   //Projeto simples, mas cheio de significado. Foi minha primeira vez fazendo algo deste tamanho e tão engenhoso. Porém, não achei difícil.
   //Caso tenha percebido que este projeto não tem commit: 
   //A explicação é que a criação dele foi feito tudo pelo próprio site do portugol, pois eu fiz durante o intervalo no meu trabalho e com o computador da empresa.
+=======
+  }
+>>>>>>> 571ad86e4c38e1bb728f67d239eefef604da282c
