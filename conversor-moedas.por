@@ -5,7 +5,7 @@ programa {
         inteiro opcao
         real valor, resultado
 
-        escreva("\n     =============\n  CONVERSOS DE MOEDAS\n     =============\n")
+        escreva("\n     =============\n  CONVERSOR DE MOEDAS\n     =============\n")
         escreva("\n1 - Euro para real")
         escreva("\n2 - Dolar para real")
         escreva("\n3 - Libra para real")
@@ -75,7 +75,7 @@ programa {
             escreva("\nOpção Inválida! Tente novamente. \n\n")
         }
         
-        escreva("\n     =============\n  CONVERSOS DE MOEDAS\n     =============\n")
+        escreva("\n     =============\n  CONVERSOR DE MOEDAS\n     =============\n")
         escreva("\n1 - Euro para real")
         escreva("\n2 - Dolar para real")
         escreva("\n3 - Libra para real")
