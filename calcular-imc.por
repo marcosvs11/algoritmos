@@ -1,4 +1,4 @@
-//Calculadora de IMC, utilizando o mesmo conceito anterior, com menu, faixas de peso e tudo mais.
+//Necessita do IMC ideal, caso o usuário queira saber.
 programa {
     inclua biblioteca Matematica --> Mat
     funcao inicio() {
@@ -10,6 +10,7 @@ programa {
         escreva("Digite a sua massa em kg: ")
         leia(massa)
         imc = massa / (altura * altura)
+        imc = Mat.arredondar (imc, 2)
 
         se (imc < 18.5) {
             escreva("\n====================\nO seu IMC é: ", imc, " e você está abaixo do peso ideal.\n====================\n")

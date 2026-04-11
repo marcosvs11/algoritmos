@@ -4,11 +4,12 @@ programa {
     inteiro l1, l2, l3, opcao = 1
 
     enquanto (opcao != 0) {
+    limpa()  
     escreva("\n1 - Verificador de Triângulos")
     escreva("\n0 - Sair")   
     escreva("\nEscolha uma opção: ")
     leia(opcao)
-    
+
     escolha(opcao) {
     caso 1: {
     escreva("\n=============================\n")
@@ -22,7 +23,7 @@ programa {
     escreva("Digite o Lado 3 da figura geométrica: ")
     leia(l3)
 
-    se (l1 + l2 > l3 e l1 + l3 > l2 e l2 + l3 > l1) {
+    se (l1 + l2 >= l3 e l1 + l3 >= l2 e l2 + l3 >= l1) {
       escreva("\nEstá figura geométrica é um TRIÂNGULO!")
       se (l1 == l2 e l2 == l3 e l1 == l3) {
         escreva("\nE este TRIÂNGULO é EQUILÁTERO!")
@@ -36,8 +37,8 @@ programa {
       }
     senao {
       escreva("\nEstá figura NÃO é um TRIÂNGULO!\n")
+    espera(5)
     }
-    
     escreva("\n")
     }
 
@@ -46,7 +47,7 @@ programa {
       escreva("\nA opção ", opcao, " é INVÁLIDA!!\n")
     }
     senao {
-    escreva("\nPrograma Encerrando... :/\n")
+      escreva("\nPrograma Encerrando... :/\n")
   }
   }
     }
